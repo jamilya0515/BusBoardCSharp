@@ -1,8 +1,8 @@
 
 namespace BusBoard {
     class BusArrivals {
-        public required string LineId { get; set; }
-        public required string Destination { get; set; }
-        public required DateTime ExpectedArrival { get; set; }
+        public required string lineId { get; set; }
+        public required string destinationName { get; set; }
+        public required DateTime expectedArrival { get; set; }
     }
 }
